@@ -14,9 +14,13 @@ dependencies:
   build_runner: ^2.1.5
   code_builder: ^4.1.0
   dart_style: ^2.2.0
-  auto_route:
+  # auto_route:
 #       ^3.1.0
-    path: ../auto_route
+  auto_route:
+    git:
+      url: https://github.com/AlexVegner/auto_route_library
+      ref: hot_fix_for_flutter_2.8
+      path: auto_route
 
 
 dev_dependencies:
